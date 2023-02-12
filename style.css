@@ -1,70 +1,102 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightskyblue;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif
 }
-.links {
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-}
-nav{
-    background-color: black;
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 45px;
-    padding-left: 8%;
-    padding-right: 8%;  
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.head{
+    height: 20vh;
+    width: 100%;
+    background-size: auto;
+    background-position: center;
+    padding-top: 1%;
 }
 .logo{
-    color: blue;
-    font-size: 100px;
+    color: darkmagenta;
+    font-size: 75px;
     letter-spacing: 1px;
     cursor: pointer;
 }
 span {
-    color: darkmagenta;
+    color: yellow;
 }
 nav ul li{
-    background-color: darkmagenta;
-    list-style: none;
-    display:inline-block;
-    padding: 10px 25px;
-    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: x-large;
 }
-nav ul li a {
-    color: blue;
+nav ul li a{
+    color: yellow;
     text-decoration: none;
-    font-weight: bold;
-    text-transform: capitalize;
+    font-weight: capitalize;
 }
 nav ul li a:hover{
-    color:aliceblue;
-    transition: .7s;
+    color:darkred;
+    transition: .8s;
 }
-.btn{
-    background-color: darkmagenta;
+nav ol img{
+    width: 800px;
+}
+.about{
+    flex-direction: column; 
+}
+main{
+    justify-content: center;
+}
+main ol li img{
+    width: 40%;
+}
+main h3{
+    font-size: 20px;
+    padding-bottom: 1%;
+}
+main h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    padding-bottom: 1%;
     color: darkmagenta;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 20px 20px;
-    border-radius: 50px;
 }
-h1{
-    color: blueviolet;
-    font-size: larger;
-    padding-top: 20px;
-}
-div{
-    flex-direction: column;
-    background-color: black;
 
-}
-img{
-    height: 350px;
-    width: 600px;
-}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  
+  .main-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+    background: #13293d;
+    color: yellow;
+  }
+  
+  .card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .card header {
+    padding: 20px;
+    background: darkmagenta;
+    color: #fff;
+  }
+  
+  .card img {
+    width: 100%;
+    min-width: 400px;
+  }
