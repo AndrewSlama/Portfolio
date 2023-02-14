@@ -44,64 +44,25 @@ nav ul li a:hover{
     color:darkred;
     transition: .8s;
 }
-nav ol img{
-    width: 800px;
+.about img{
+    width: 600px;
+    flex-wrap: center;
 }
 .about{
-    flex-direction: column; 
-}
-main{
-    justify-content: center;
-
-}
-main ol li img{
-    width: 40%;
-}
-main h3{
-    font-size: 20px;
-    padding-bottom: 1%;
-}
-main h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 45px;
-    padding-bottom: 1%;
-    color: darkmagenta;
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 2%;
-    padding-top: 200px;
-  }
-  
-  .main-header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 60px;
-    background: #13293d;
-    color: yellow;
-  }
-  
-  .card {
-    flex: 1 0 0;
-    padding: 0px;
+    background-color: blue;
+    border-radius: 50%;
     text-align: center;
-    border-style: solid;
-    border-width: 1px;
-  }
-  
-  .card header {
-    padding: 20px;
-    background: darkmagenta;
-    color: #fff;
-  }
-  
-  .card img {
-    width: 100%;
-    min-width: 400px;
-  }
-  main ul li{
+}
+.about header{
+    color: aliceblue;
     font-size: 40px;
-  }
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;   
+    background-color: darkmagenta;
+}
+.about h1{
+    font-size: 30px;
+}
+
+
+  
