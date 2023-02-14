@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightskyblue;
+    background-color: darkgray;
     box-sizing: border-box;
 }
 nav {
@@ -45,11 +45,11 @@ nav ul li a:hover{
     transition: .8s;
 }
 .about img{
-    width: 600px;
+    width: 605px;
     flex-wrap: center;
 }
 .about{
-    background-color: blue;
+    background-color: yellow;
     border-radius: 50%;
     text-align: center;
 }
@@ -61,7 +61,32 @@ nav ul li a:hover{
     background-color: darkmagenta;
 }
 .about h1{
+    font-size: 40px;
+    color: yellow;
+    background-color: darkmagenta;
+}
+.about p{
+    color: #234;
     font-size: 30px;
+    background-color:aliceblue;
+    border-radius: 15%;
+}
+.projects header {
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;   
+    background-color: darkmagenta;
+}
+.projects{
+    background-color: yellow;
+    border-radius: 50%;
+    text-align: center;
+}
+.projects ul li {
+    color:#234;
+    font-size: 30px;
+    background-color: aliceblue;
 }
 
 
