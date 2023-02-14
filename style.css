@@ -54,7 +54,7 @@ nav ul li a:hover{
     text-align: center;
 }
 .about header{
-    color: aliceblue;
+    color: black;
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-bottom: 20px;   
@@ -72,7 +72,7 @@ nav ul li a:hover{
     border-radius: 15%;
 }
 .projects header {
-    color: aliceblue;
+    color: black;
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-bottom: 20px;   
@@ -87,6 +87,50 @@ nav ul li a:hover{
     color:#234;
     font-size: 30px;
     background-color: aliceblue;
+    border-radius: 15%;
+}
+.projects img{
+    width: 650px;
+}
+.contact{
+    background-color: yellow;
+    border-radius: 50%;
+    text-align: center;
+}
+.contact header{
+    color: black;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;   
+    background-color: darkmagenta;
+}
+.contact img{
+    width: 400px;
+}
+.contact form{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.contact button{
+   color: black;
+   width: 100px;
+   height: 50px;
+   background-color:darkmagenta;
+   font-size: large;
+}
+button:hover{
+    color: yellow;
+}
+button:focus{
+    color: blue;
+    background-color: aliceblue;
+}
+@media screen and(max-width: 768px){;   
+}
+@media screen and(max-width: 992px){
+}
+@media screen and(max-width: 768px) {
 }
 
 
